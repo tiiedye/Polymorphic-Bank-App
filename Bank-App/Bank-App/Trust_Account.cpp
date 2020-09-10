@@ -31,5 +31,5 @@ bool Trust_Account::withdraw(double amount) {
 void Trust_Account::print(std::ostream& os) const {
     os.precision(2);
     os << std::fixed;
-    os << "[ Trust Account: " << name << " | " << balance << " ]";
+    os << "[ Trust Account: " << name << " | Balance: " << balance << " | Interest Rate: " << int_rate << "% | Withdrawals: " << num_withdrawals << " ]";
 }

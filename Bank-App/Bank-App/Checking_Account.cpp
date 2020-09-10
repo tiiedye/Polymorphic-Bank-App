@@ -21,5 +21,5 @@ bool Checking_Account::deposit(double amount) {
 void Checking_Account::print(std::ostream& os) const {
     os.precision(2);
     os << std::fixed;
-    os << "[ Checking Account: " << name << " | " << balance << " ]";
+    os << "[ Checking Account: " << name << " | Balance: " << balance << " ]";
 }
