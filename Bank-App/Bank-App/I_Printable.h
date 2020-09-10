@@ -1,5 +1,5 @@
-#ifndef _ACCOUNT_H_
-#define _ACCOUNT_H_
+#ifndef _I_PRINTABLE_H_
+#define _I_PRINTABLE_H_
 #include <iostream>
 #include <string>
 

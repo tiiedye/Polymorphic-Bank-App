@@ -13,6 +13,7 @@ private:
 public:
     Checking_Account(std::string name = def_name, double balance = def_balance);
     bool withdraw(double);
+    virtual void print(std::ostream& os) const override;
     // Inherits the Account::deposit method
 };
 
