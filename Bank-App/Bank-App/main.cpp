@@ -17,7 +17,7 @@ int main() {
     cout << *trust << endl;
 
     Account* p1 = new Checking_Account("Larry", 10000);
-    Account* p2 = new Savings_Account("Moe", 1000);
+    Account* p2 = new Savings_Account("Moe", 1000, 1.5);
     Account* p3 = new Trust_Account("Curly");
 
     std::vector<Account*> accounts{ p1,p2,p3 };
