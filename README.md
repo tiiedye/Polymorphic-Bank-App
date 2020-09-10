@@ -1,7 +1,7 @@
 ![made-with-VisualStudio](https://img.shields.io/badge/Made%20With-Visual%20Studio-ba88f3)  ![Using-CPlusPlus](https://img.shields.io/badge/Using-C%2B%2B-ff69b4)
 
-# TITLE
-...
+# Polymorphic Bank App
+An app building upon my Simple Banking App, transforming it to use polymorphic code with abstract classes, class interfaces, virtual functions and pointers.
 
 <img src="./assets/screenshot.png"
      alt="Img"
